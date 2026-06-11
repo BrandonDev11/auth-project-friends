@@ -15,9 +15,9 @@ logger = logging.getLogger(__name__)
 
 class GameInfo:
     def __init__(self):
-        self.TitleId: str = "8E145"  # Playfab Title Id
-        self.SecretKey: str = "HEN1RKRYB8P9EDHCOY45AT6A4FWFSFHZTH6MRTXGWU1NUTZNW3"  # Playfab Secret Key
-        self.ApiKey: str = "OC|25806553408967766|5fea405d57eea9c3f7f5f406c3cda021"  # App Api Key (Oculus/Graph API)
+        self.TitleId: str = "18519F"  # Playfab Title Id
+        self.SecretKey: str = "S4Z9FJEW1XP87XHRHRNGKMGYBQ3HU67JJEOUGOAPRJQB9NURBX"  # Playfab Secret Key
+        self.ApiKey: str = "OC|27989872537268315|61660929175854e5c5a2c501ea3cef17"  # App Api Key (Oculus/Graph API)
 
     def get_auth_headers(self):
         return {"content-type": "application/json", "X-SecretKey": self.SecretKey}
@@ -205,7 +205,7 @@ def titledata():
         "SeasonalStoreBoardSign": "<color=red>RATE THE GAME 5 STARS!</color>\n<color=blue>.GG/UNLOADTAG</color>",
         # Text and Messages
         "EmptyFlashbackText": "FLOOR TWO NOW OPEN\n FOR BUSINESS\n\nSTILL SEARCHING FOR\nBOX LABELED 2021",
-        "MOTD": "<color=#FFC0CB>WELCOME TO CHRISTMAS TAG!</color>\n\n<color=#0099c2>CURRENT UPDATE: XMAS24</color>\n<color=#cacfd2>BOOST THE DISCORD FOR ALL COSMETICS (EXCLUDING STAFF COS)</color>\n<color=#41ff80>YANDERE MADE THIS MOTD</color>\n<color=#6417ff>OUR DEVELOPERS ARE: FATAL & CASHSMILE</color>\n<color=#ac1a00>CREDITS FOR GAMES OG OS: VIPER</color>\n\n<color=#91A3B0>discord.gg/CHRISTMASTAG</color>",
+        "MOTD": "<color=#FFC0CB>WELCOME TO PROJECT FRIENDS!</color>\n\n<color=#0099c2>CURRENT UPDATE: TAKE MY HAND 2025</color>\n<color=#cacfd2>BOOST THE DISCORD FOR ANY COSMETIC YOU WANT (BUT STAFF COS)</color>\n<color=#41ff80>COOLFRENDS MADE THIS MOTD</color>\n<color=#6417ff>OUR DEVELOPERS ARE: COOLFRENDS</color>\n<color=#ac1a00>CREDITS FOR GAME ORG: HOLLOW</color>\n\n<color=#91A3B0>https://discord.gg/YFwrwFBkqB</color>",
         "TOBAlreadyOwnCompTxt": "DISCORD.GG/CHRISTMASTAG",
         "TOBAlreadyOwnPurchaseBundle": "CHRISTMAS TAG",
         "TOBDefCompTxt": "DISCORD.GG/CHRISTMASTAG",
